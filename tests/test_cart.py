@@ -4,8 +4,7 @@ import pytest
 @pytest.mark.regression
 def test_cart_lists_added_items(inventory_page):
     names = inventory_page.item_names()
-    inventory_page.add_item(0)
-    inventory_page.add_item(1)
+    inventory_page.add_first_items(2)
 
     cart = inventory_page.open_cart()
     assert cart.is_loaded()
