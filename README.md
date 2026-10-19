@@ -60,4 +60,4 @@ Requires Google Chrome. The HTML report is written to `reports/report.html`.
 
 ## Results
 
-_Add a screenshot of the passing run or the HTML report here after the first run._
+![CI run passing](docs/Screenshot%202026-10-19%20125940.png)
